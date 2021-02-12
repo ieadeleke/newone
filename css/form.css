@@ -1,0 +1,77 @@
+input[type="email"], input[type="text"], input[type="password"] {
+    height: 2.5rem;
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #CED4DA;
+    padding: 0% 10px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 100%;
+    line-height: 150%;
+    margin-top: 5px;
+}
+
+input[type="password"] {
+    margin-bottom: 5px;
+}
+
+label {
+    font-size: 95%;
+    line-height: 150%;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+form button {
+    padding: 9px 35px !important;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.form-flex-2 div {
+    flex: 1;
+}
+
+.form-flex-2 div.space {
+    margin-right: 10px;
+}
+
+
+.right {
+    background: url('../images/signup.webp');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+.form .grid-2 .left .contain {
+    margin-top: 8%;
+    width: 80%;
+}
+
+.form .grid-2 .left .contain .logo {
+    margin-bottom: 5%;
+    height: 5rem;
+}
+
+.form .grid-2 .left .contain h4 {
+    font-size: 165%;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .form .grid-2 .left .contain {
+        margin-top: 8%;
+        width: 90%;
+    }
+    .right {
+        display: none;
+    }
+}
